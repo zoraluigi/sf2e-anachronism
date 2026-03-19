@@ -1,4 +1,9 @@
+## This repo is no longer maintained
+
+SF2e content is maintained in the upstream [PF2e repo](https://github.com/foundryvtt/pf2e). Please submit issues and content fixes there.
+
 # Starfinder Anachronism: Official Starfinder Content Pack for Pathfinder Second Edition
+
 The official Foundry module for adding Starfinder Second Edition content into your Pathfinder game!
 
 Come discuss this module and Pathfinder 2nd edition on [our discord](https://discord.gg/pf2e).
