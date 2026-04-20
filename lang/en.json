@@ -1,7 +1,7 @@
 {
     "PF2E": {
         "ActionsCheck": {
-            "computers": "Computers Check",
+            "computers": "Magitek Check",
             "piloting": "Piloting Check"
         },
         "Item": {
@@ -74,7 +74,7 @@
                 "Title": "Drive"
             },
             "Hack": {
-                "Description": "<p>You try to access, control, or make changes to an active, secured system. In most cases, this is going to be an attempt made against a local computer system that you access directly or indirectly through the use of a hacking toolkit. Attempt a Computers check to determine if you can access the targeted system. Computers with improved systems might require multiple successes to access.</p><p><strong>Critical Success</strong> You access the system, or you achieve two successes toward accessing a system requiring more than one success. You leave no trace of your tampering.<br><strong>Success</strong> You access the system, or you achieve one success toward accessing a system that requires more than one success.<br><strong>Failure</strong> You fail to access the system or achieve any success toward accessing a system that requires more than one success. Some computerized systems might have security measures that activate on a failure.<br><strong>Critical Failure</strong> You activate specially ingrained security protocols or completely lock yourself out of the system. Being locked out of a system prevents you from attempting another check to access it for the next hour.</p>",
+                "Description": "<p>You try to access, control, or make changes to an active, secured system. In most cases, this is going to be an attempt made against a local computer system that you access directly or indirectly through the use of a hacking toolkit. Attempt a Magitek check to determine if you can access the targeted system. Computers with improved systems might require multiple successes to access.</p><p><strong>Critical Success</strong> You access the system, or you achieve two successes toward accessing a system requiring more than one success. You leave no trace of your tampering.<br><strong>Success</strong> You access the system, or you achieve one success toward accessing a system that requires more than one success.<br><strong>Failure</strong> You fail to access the system or achieve any success toward accessing a system that requires more than one success. Some computerized systems might have security measures that activate on a failure.<br><strong>Critical Failure</strong> You activate specially ingrained security protocols or completely lock yourself out of the system. Being locked out of a system prevents you from attempting another check to access it for the next hour.</p>",
                 "Notes": {
                     "criticalFailure": "<strong>Critical Failure</strong> You activate specially ingrained security protocols or completely lock yourself out of the system. Being locked out of a system prevents you from attempting another check to access it for the next hour.",
                     "criticalSuccess": "<strong>Critical Success</strong> You access the system, or you achieve two successes toward accessing a system requiring more than one success. You leave no trace of your tampering.",
@@ -424,7 +424,7 @@
             }
         },
         "Skill": {
-            "Computers": "Computers",
+            "Computers": "Magitek",
             "Piloting": "Piloting"
         },
         "SpecificRule": {
@@ -942,7 +942,7 @@
                     "Alteration": "If your next action is to Cast a Spell with a burst effect that requires a Reflex save, the spell does not immediately take effect, but it instead is installed into the held grenade. Until the end of your next turn, any creatures caught in the Area Fire of the grenade are also affected by the installed spell; creatures do not make a separate Reflex save against the spell and instead use the same result they rolled against the grenade."
                 },
                 "HardlightIllusion": {
-                    "Alteration": "Creatures cannot attempt to disbelieve your illusion by merely touching or attempting to damage it, but they can still use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it and attempt to disbelieve your illusion. When a creature succeeds (but not critically succeeds) at a Perception check or Will save to disbelieve the illusion, you can reprogram it as a reaction by attempting a Computers check against the target's Perception DC. If you succeed, the target fails to disbelieve the illusion."
+                    "Alteration": "Creatures cannot attempt to disbelieve your illusion by merely touching or attempting to damage it, but they can still use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it and attempt to disbelieve your illusion. When a creature succeeds (but not critically succeeds) at a Perception check or Will save to disbelieve the illusion, you can reprogram it as a reaction by attempting a Magitek check against the target's Perception DC. If you succeed, the target fails to disbelieve the illusion."
                 },
                 "OvervoltResistor": {
                     "Alteration": "The spell ignores an amount of the target's resistance to acid, cold, electricity, fire, or sonic damage equal to your level. This applies to all damage the spell deals, including persistent damage and damage caused by an ongoing effect of the spell, such as the wall created by wall of fire. A creature's immunities are unaffected."
@@ -1097,7 +1097,7 @@
             "Polymer": "Polymer",
             "Powered": "Powered",
             "Prismeni": "Prismeni",
-            "ProfessionalComputers": "Professional (Computers)",
+            "ProfessionalComputers": "Professional (Magitek)",
             "ProfessionalCrafting": "Professional (Crafting)",
             "ProfessionalDeception": "Professional (Deception)",
             "ProfessionalPerformance": "Professional (Performance)",
